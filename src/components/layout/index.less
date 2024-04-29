@@ -1,0 +1,25 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  &-header {
+    height: 200px;
+    display: flex;
+    &__banner {
+      flex: auto;
+    }
+    &__btns {
+      width: 200px;
+    }
+  }
+  &-content {
+    flex: auto;
+    display: flex;
+    &__menu {
+      width: 200px;
+      border-right: 1px solid #ccc;
+    }
+    &__container {
+      flex: auto;
+    }
+  }
+}
