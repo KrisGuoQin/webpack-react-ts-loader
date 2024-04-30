@@ -12,7 +12,8 @@
     "lint": "eslint --ext .ts,.tsx src",
     "prettier": "prettier src --write",
     "prepare": "husky install",
-    "test": "echo \"放弃commit提交\" && exit 2"
+    "test": "echo \"放弃commit提交\" && exit 2",
+    "cz": "git cz"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,7 @@
     "@typescript-eslint/parser": "5.54.1",
     "@webpack-cli/generators": "^3.0.7",
     "autoprefixer": "^10.4.19",
+    "commitizen": "4.3.0",
     "css-loader": "^7.1.1",
     "eslint": "^8.35.0",
     "eslint-config-prettier": "8.7.0",
