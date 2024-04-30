@@ -63,6 +63,7 @@
     "zustand": "^4.5.2"
   },
   "config": {
+    "flat": true,
     "commitizen": {
       "path": "./node_modules/cz-customizable"
     }
