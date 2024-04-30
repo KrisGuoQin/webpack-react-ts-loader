@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const Login = () => {
+const Login = () => {
   const [count, setCount] = useState(0);
   return (
     <div>
@@ -12,3 +12,5 @@ export const Login = () => {
     </div>
   );
 };
+
+export default Login;

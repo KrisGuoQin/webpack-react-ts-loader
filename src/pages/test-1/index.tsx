@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const Test1 = () => {
+const Test1 = () => {
   const [count, setCount] = useState(0);
   return (
     <div>
@@ -12,3 +12,5 @@ export const Test1 = () => {
     </div>
   );
 };
+
+export default Test1;
